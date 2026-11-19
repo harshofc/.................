@@ -2,7 +2,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>For My Tiger ❤️</title>
+<title>For My Husband ❤️</title>
 <style>
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
@@ -70,11 +70,10 @@ footer{padding:30px}
 </head>
 <body>
 
-<!-- PAGE 1 -->
 <section class="hero" id="page1">
  <div class="heart">💗</div>
  <p>A LITTLE SURPRISE FOR YOU</p>
- <h1>Happy Birthday<br>My Tiger 🐯</h1>
+ <h1>Happy Birthday<br>My Husband ❤️</h1>
  <h2>My Baby, My Happiness ❤️</h2>
  <p>Made with endless love by your wife Ashi 💍</p>
  <button onclick="nextPage('page2')">
@@ -82,9 +81,8 @@ footer{padding:30px}
  </button>
 </section>
 
-<!-- PAGE 2 -->
 <section id="page2">
- <h2>Hey My Tiger! 🥹❤️</h2>
+ <h2>Hey My Husband! 🥹❤️</h2>
  <div class="card">
   <div class="heart">💕</div>
   <p>Today is not an ordinary day...</p>
@@ -94,7 +92,6 @@ footer{padding:30px}
  <button onclick="nextPage('page3')">Next Surprise 💗 ➜</button>
 </section>
 
-<!-- PAGE 3 -->
 <section id="page3">
  <h2>🎂 Happy Birthday Baby!</h2>
  <div class="card">
@@ -102,52 +99,48 @@ footer{padding:30px}
   <p>Make a wish, my love!</p>
   <button onclick="cutCake()">Cut The Cake 🎂❤️</button>
   <p id="cakeMessage"></p>
-  <div id="partyMessage">🎉 HAPPY BIRTHDAY TIGER! 🎉</div>
+  <div id="partyMessage">🎉 HAPPY BIRTHDAY MY HUSBAND! 🎉</div>
  </div>
  <button onclick="nextPage('page4')">Next Surprise 💌 ➜</button>
 </section>
 
-<!-- PAGE 4 -->
 <section id="page4">
  <h2>💌 A Letter For My Husband</h2>
  <div class="card">
   <div class="heart">💗</div>
-  <h3>Dear My Tiger,</h3>
+  <h3>Dear My Husband,</h3>
   <p>
    Happy Birthday, my love! ❤️
-   Tum meri life ka woh beautiful part ho
+   Aap meri life ka woh beautiful part ho
    jise main kabhi khona nahi chahti.
-   Tumhari smile meri favourite hai aur
-   tumhara saath meri sabse khoobsurat feeling.
+   Aapki smile meri favourite hai aur
+   aapka saath meri sabse khoobsurat feeling.
   </p>
   <p>
-   Main chahti hoon tumhari life hamesha
-   khushiyon se bhari rahe. Tumhare saare
-   dreams poore hon aur tum hamesha haste raho.
+   Main chahti hoon aapki life hamesha
+   khushiyon se bhari rahe. Aapke saare
+   dreams poore hon aur aap hamesha haste raho.
   </p>
   <p>
-   Har birthday par main tumhare saath rahun
-   aur tumhari har smile ki wajah banu.
+   Har birthday par main aapke saath rahun
+   aur aapki har smile ki wajah banu.
   </p>
   <h3>Forever yours, Your Wife Ashi 💗</h3>
  </div>
  <button onclick="nextPage('page5')">One More Surprise 💍 ➜</button>
 </section>
 
-<!-- PAGE 5 -->
 <section id="page5">
  <h2>💍 My Forever Promise</h2>
  <div class="card">
   <div class="heart">❤️</div>
-  <p>Tiger, I promise to stand beside you in every situation.</p>
+  <p>I promise to stand beside you in every situation.</p>
   <p>To celebrate your happiness, support your dreams and hold your hand through every chapter of life.</p>
-  <p>Har janam mein mujhe tumhari hi Ashi banna hai. 🥹</p>
   <h3>Two Hearts, One Forever 💗</h3>
  </div>
  <button onclick="nextPage('page6')">Last Surprise 🎁 ➜</button>
 </section>
 
-<!-- PAGE 6 -->
 <section id="page6">
  <h2>🎁 One Last Surprise!</h2>
  <div class="card">
@@ -155,12 +148,10 @@ footer{padding:30px}
   <button onclick="reveal()">Open Your Secret Message ❤️</button>
   <div id="secret">
    <div class="heart">🥹❤️</div>
-   Tiger, you are my favourite person,
+   You are my favourite person,
    my happiest thought and my sweetest blessing.
    <br><br>
    I LOVE YOU SO MUCH, MY HUSBAND!
-   <br><br>
-   Har janam mein tumhari Ashi banna hai.
    <br><br>
    Forever & Always... 💗
    <br><br>
@@ -173,7 +164,7 @@ footer{padding:30px}
 
 <footer>
  Made with ❤️ by Ashi<br>
- For her one and only Tiger 🐯💍
+ For her one and only Husband 💍
 </footer>
 
 <script>
@@ -200,13 +191,12 @@ function cutCake(){
  const cake=document.getElementById('cake');
  cake.innerHTML='🍰';
  document.getElementById('cakeMessage').innerHTML=
- 'Cake cut ho gaya! Lots of love, my Tiger! ❤️';
+ 'Cake cut ho gaya! Lots of love, my Husband! ❤️';
  document.getElementById('partyMessage').style.display='block';
 
  const colors=['#ff4f91','#ffd43b','#9b72ff',
  '#42c9c0','#ff795e','#ffb6d9'];
 
- // Balloon party
  for(let i=0;i<35;i++){
   const b=document.createElement('div');
   b.className='balloon';
@@ -217,7 +207,6 @@ function cutCake(){
   setTimeout(()=>b.remove(),6500);
  }
 
- // Confetti party
  for(let i=0;i<100;i++){
   const c=document.createElement('div');
   c.className='confetti';
